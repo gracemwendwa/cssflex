@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>cssflex</title>
+  <style>
+    .container {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      width: 100VW;
+      position: fixed;
+    }
+
+    .header {
+      height: 100px;
+      background: chartreuse;
+    }
+
+    .body {
+      display: flex;
+      flex-direction: row;
+      height: 100%;
+    }
+
+    .left_sidebar {
+      background: blueviolet; 
+      width 
+      :20%;
+    }
+
+    .main {
+      display: flex;
+      flex-direction: column;
+      width:60%;
+    }
+
+    .content {background: coral;
+    height: 90%;}
+
+    .footer {background: darkgoldenrod;
+    height: 40%;}
+
+    .right_sidebar {
+      background: brown;
+      width:20% ;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header"></div>
+    <div class="body">
+      <div class="left_sidebar"></div>
+      <div class="main">
+        <div class="content"></div>
+        <div class="footer"></div>
+      </div>
+      <div class="right_sidebar"></div>
+    </div>
+
+
+
+  </div>
+
+
+
+</body>
+
+</html>
